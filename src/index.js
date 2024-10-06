@@ -8,7 +8,7 @@ import Header from './components/header';
 import Contact from './components/contact';
 import About from './components/about-page';
 import Register from './components/register';
-
+import Sell from './components/Sell';
 
 export default function App() {
   return (
@@ -18,7 +18,7 @@ export default function App() {
         <Route path="contact.js" element={<Contact />} />
         <Route path="about-page.js" element={<About />} />
         <Route path="register.js" element={<Register />} />
-     
+        <Route path="Sell.js" element={<Sell />} />
       </Routes>
     </BrowserRouter>
   );
