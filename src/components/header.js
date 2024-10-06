@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import brandLogo from '../image/brand-logo.jpg';
 import sale from '../image/sale.jpg';
 import '../App.css';
+import '../components/Sell';
 import '../components/contact';
 import '../components/about-page';
 import '../components/register';
@@ -30,7 +31,7 @@ function Header() {
 <div class="menu">
       <ul>
         <li>
-          <Link to="Sell.js">SELL</Link>
+        <Link to="/Sell.js">SELL</Link>
         </li>
         <li>
           <Link to="/contact.js">CONTACT</Link>
