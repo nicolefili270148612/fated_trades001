@@ -1,0 +1,35 @@
+.section {
+    text-align: center;
+    background-color: #FFFFFF;
+    border: 1px solid #ffc697;
+    display: block;
+  }
+
+  .logo {
+    text-decoration: none;
+    border-bottom: 1px solid #ffc697;
+    padding-bottom: 2.5%;
+  }
+
+.contact{
+    text-align: center;
+ color: #ff8264;
+}
+
+/* CONTACT FORM */
+
+.contact-form {
+    border: 1px solid #ffc697;
+   
+
+}
+
+.contact-info{
+    text-align: center;
+    display: block;
+    color: black;
+}
+
+h2 {
+    color: #ff8264;;
+}

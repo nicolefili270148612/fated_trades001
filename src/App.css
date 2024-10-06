@@ -1,0 +1,282 @@
+.App {
+  text-align: center;
+  background-color: #FFFFFF;
+  border: 1px solid #ffc697;
+}
+
+.body {
+  background-color: #FFFFFF;
+  border: 1px solid #ffc697;
+}
+
+/* HEADER */
+
+h1 {
+  color: #ff8264;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ 
+}
+
+h3 {
+  color: #ffaa64;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.logo {
+  display: block;
+  padding-left: 10px;
+}
+
+.nav {
+display: contents;
+
+color: #ff8264;
+
+}
+
+.brand-logo {
+  width:30%;
+  align-self: center;
+  margin-left: 155px;
+}
+
+.menu {
+  display: inline-block;
+  text-decoration: #ff8264;
+  padding-left: 10px;
+  gap: 10px;
+  color: #ff8264;
+  background-color: white;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin-left: 10px;
+    padding: 40px;
+    gap: 10px;
+    text-decoration: #ff8264;
+    color: #ff8264;
+    background-color: white;
+  }
+  
+.menu li {
+    display: inline;
+    text-decoration: #ff8264;
+    color: #ff8264;
+    background-color: white;
+  }
+
+  /* Button used to open the contact form */
+.open-button {
+  background-color: white;
+  color: #ff8264;
+  padding: 16px 5px;
+  border: none;
+  cursor: pointer;
+text-decoration: underline;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #ffaa64;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: #ffaa64;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+  /* SEARCH */
+  
+  .search {
+    border: 1px solid #ffc697;
+    padding: 15px;
+ 
+  }
+
+  .mySearch {
+    padding: 11px;
+    border: 1px solid #ffc697;
+     width: 80%;  
+    font-size: 18px;
+  }
+
+  .myMenu li a {
+    padding: 12px;
+    text-decoration: none;
+    color: black;    
+  }
+
+  .search ul {
+    display: none;
+  }
+
+
+  /* SLIDESHOW */
+
+.image {
+    width:80%;
+    padding-left: 40px;
+}
+
+.mySlides {
+display:none;
+width: 100%;}
+
+.slideshow {
+  text-align: center;
+}
+
+/* CONTACT FORM */
+
+.contact-form {
+  border: 1px solid #ffc697;
+
+}
+
+.contact-info {
+  display:inline-block;
+}
+
+
+/* CATEGORY */
+
+  .category {
+    /* border: 1px solid #ffc697; */
+    text-decoration: none;
+  }
+
+  .myCategory {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 20px;
+    list-style-type: none;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    box-sizing: border-box;
+    
+    }
+
+    .category ul a{
+        border: 1px solid #ffc697;
+        border-radius: 1px;
+        text-decoration: none;
+        background-color: #ffc697;
+        color: #ffffff;
+        padding: 5px 5px;
+        margin-bottom: 10px;
+        border-radius: 2px;
+        display: flex;
+        margin-right: 25px;
+    }
+
+    /* FOOTER */
+  
+ footer {
+    padding: 20px;
+    background-color: #d9d9d9;
+    border: 1px solid #ffc697;
+    text-align: center;
+}
+
+footer a {
+    padding: 5px;
+    padding-top: 3px;
+    color: #000000;
+    text-decoration: none;
+    background-color: #d9d9d9;
+}
+
+
+
+ 
+
+  /* FOOTER */
+
+footer {
+  padding: 20px;
+  background-color: #d9d9d9;
+  border: 1px solid #ffc697;
+}
+
+footer a {
+  padding: 5px;
+  padding-top: 3px;
+  color: #000000;
+  text-decoration: none;
+  background-color: #d9d9d9;
+}
+
+/* @media  only screen and (min-width: 600px) {
+  /* For tablets: */
+  .nav {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  border: solid #ffc697;
+  }
+  
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .nav {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: 1fr;
+      grid-column-gap: 0px;
+      grid-row-gap: 0px;
+      border: solid #ffc697;
+      }
+      
+  } */
