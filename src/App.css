@@ -255,28 +255,4 @@ footer a {
   background-color: #d9d9d9;
 }
 
-/* @media  only screen and (min-width: 600px) {
-  /* For tablets: */
-  .nav {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 1fr;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-  border: solid #ffc697;
-  }
-  
-}
 
-@media only screen and (min-width: 768px) {
-  /* For desktop: */
-  .nav {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: 1fr;
-      grid-column-gap: 0px;
-      grid-row-gap: 0px;
-      border: solid #ffc697;
-      }
-      
-  } */
