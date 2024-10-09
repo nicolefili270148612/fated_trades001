@@ -38,8 +38,8 @@ function sellpage() {
 
   <div class="dropdown">
   <button class="dropbtn">Choose category</button>
-<input type="button" id="category" name="category" value="Choose category" />
-<select id="category" name="category" size="9" multiple>
+
+<select id="category" name="category" >
     <div class="dropdown-content">
         <a href="sport">Sports</a>
        <a href="furniture">Furniture</a>
