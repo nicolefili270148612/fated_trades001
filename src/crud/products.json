@@ -1,0 +1,31 @@
+[
+    {
+        "_id":{"$oid":"66cbca2523f83d08be018be3"},
+        "category":"gaming",
+        "description":"Vintage game",
+        "year":{"$numberInt":"2024"},
+        "ps5 game":"Halo 8",
+        "cost":{"$numberInt":"50"}
+},
+{
+    "_id":{"$oid":"66cbcae923f83d08be018be4"},
+    "electronincs":"phone",
+    "description":"Near new",
+    "brand":"Samsung 24",
+    "cost":{"$numberInt":"2000"},
+    "year":{"$numberInt":"2024"}
+    },
+    {
+        "_id":{"$oid":"66cbc9ea23f83d08be018be2"},
+        "category":"clothing",
+        "description":"Dropped some weight clearing out closet",
+        "size":{"$numberInt":"14"},
+        "Pants":"Jeans","cost":{"$numberInt":"15"}
+        },
+        {
+            "_id":{"$oid":"66cbc83a23f83d08be018be1"},
+            "category":"cars","description":"white toyota hilux",
+            "year":{"$numberInt":"2014"},
+            "name":"Toyota","cost":{"$numberLong":"15000"}
+            }
+]
