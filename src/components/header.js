@@ -44,7 +44,7 @@ function Header() {
           </li> 
           <button class="open-button" onclick="openForm()">LOGIN</button>
         <div class="form-popup" id="myForm">
-          <form action="/action_page.php" class="form-container">
+          <form action="*" class="form-container">
             <h1>Login</h1>
         
             <label for="email"><b>Email</b></label>

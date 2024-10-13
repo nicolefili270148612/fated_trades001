@@ -31,7 +31,7 @@ function sellpage() {
 </div>
 
 <div class="listing-form">
-<form action="/action_page.php">
+<form action="*">
   <input type="file" id="myFile" name="filename" />
 
   <input type="text" id="lname" name="lname" value="Listing title" /><br></br>
