@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ft_main.html">
+    <script src="./login-register.js" defer></script>
+    <style>
+     body {
+  border: 1px solid #ffc697;
+}
+
+h1 {
+    color: #ff8264;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h3 {
+    color: #ffaa64;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.logo {
+    display: block;
+    padding-left: 10px;
+}
+
+.brand-logo {
+  width:30%;
+  align-self: center;
+  margin-left: 155px;
+}
+
+
+      .loginbutton {
+color: white;
+text-decoration: none;
+      }
+        
+        /* Full-width input fields */
+        input[type=text], input[type=password] {
+          width: 100%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          display: inline-block;
+          border: 1px solid #ccc;
+          box-sizing: border-box;
+        }
+        
+        /* Set a style for all buttons */
+        button {
+          background-color: #ff8264;
+          color: white;
+          padding: 14px 20px;
+          margin: 8px 0;
+          border: none;
+          cursor: pointer;
+          width: 100%;
+        }
+        
+        button:hover {
+          opacity: 0.8;
+        }
+        
+        /* Extra styles for the cancel button */
+        .cancelbtn {
+          width: auto;
+          padding: 10px 18px;
+          background-color: #ff8264;
+        }
+
+        
+        .container {
+          padding: 16px;
+        }
+        
+        span.psw {
+          float: right;
+          padding-top: 16px;
+        }
+        
+        /* The Modal (background) */
+        .lform {
+          display: none; /* Hidden by default */
+          position: fixed; /* Stay in place */
+          z-index: 1; /* Sit on top */
+          left: 0;
+          top: 0;
+          width: 100%; /* Full width */
+          height: 100%; /* Full height */
+          overflow: auto; /* Enable scroll if needed */
+          background-color: rgb(0,0,0); /* Fallback color */
+          background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+          padding-top: 60px;
+        }
+        
+        /* Modal Content/Box */
+        .lform-content {
+          background-color: #fefefe;
+          margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+          border: 1px solid #888;
+          width: 80%; /* Could be more or less, depending on screen size */
+        }
+        
+        /* The Close Button (x) */
+        .close {
+          position: absolute;
+          right: 25px;
+          top: 0;
+          color: #000;
+          font-size: 35px;
+          font-weight: bold;
+        }
+        
+        .close:hover,
+        .close:focus {
+          color: red;
+          cursor: pointer;
+        }
+        
+        /* Add Zoom Animation */
+        .animate {
+          -webkit-animation: animatezoom 0.6s;
+          animation: animatezoom 0.6s
+        }
+        
+        @-webkit-keyframes animatezoom {
+          from {-webkit-transform: scale(0)} 
+          to {-webkit-transform: scale(1)}
+        }
+          
+        @keyframes animatezoom {
+          from {transform: scale(0)} 
+          to {transform: scale(1)}
+        }
+
+ /* FOOTER */
+  
+ footer {
+    padding: 20px;
+    background-color: #d9d9d9;
+    border: 1px solid #ffc697;
+}
+
+footer a {
+    padding: 5px;
+    padding-top: 3px;
+    color: #000000;
+    text-decoration: none;
+    background-color: #d9d9d9;
+}
+        
+        
+        /* Change styles for span and cancel button on extra small screens */
+        @media screen and (max-width: 300px) {
+          span.psw {
+             display: block;
+             float: none;
+          }
+          .cancelbtn {
+             width: 100%;
+          }
+
+ 
+        }
+
+
+        @media screen and (min-width: 800px) {
+
+          .heading {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr;
+          }
+
+          .footer {
+            border-top: #3498DB solid;
+            margin-top: 10px;
+            color: #3498DB;
+          } 
+
+        }
+    </style>
+</head>
+<body>
+
+  <div class="nav">
+    <div class="logo">
+<a href="ft_main.html"><h1>FATED TRADES</h1>
+<h3>BUY & SELL</h3></a>
+</div>
+
+
+<img class="brand-logo" src="image/brand-logo.jpg" alt="logo">
+</div>
+
+  <button onclick="document.getElementById('id01').style.display='block'" background-color: #3498DB; width:40px;>Login</button>
+
+
+ <div id="id01" class="lform">
+  
+  <form class="lform-content animate" action="ft_main.html">
+
+
+    <div class="container">
+      <label style="color: #ff8264;" for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label style="color: #ff8264;" for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button class="loginbutton" type="submit"><a href="ft_main.html">Login</a></button>
+      
+    </div>
+   
+</form>
+ </div>
+
+
+<div id="id01" class="sform">
+
+  <form class="sform-content" action="ft_main.html">
+
+    <div class="container">
+      <h1 style="color: #ff8264;">Sign Up Form</h1>
+      <p style="color: #ff8264;">Please fill in this form to create an account.</p>
+      <hr>
+      <label style="color: #ff8264;" for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      <label style="color: #ff8264;" for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <label style="color: #ff8264;" for="psw-repeat"><b>Repeat Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+      
+
+        <button type="submit" class="signupbtn">Sign Up</button>
+      
+    </div>
+  </form>
+</div>
+
+<footer>
+  <a href="#">Desktop View</a>
+  <a href="#">Tablet View</a>
+  <a href="#">About Us</a>
+  <a href="#">Contact</a>
+  <br>
+  <br>
+  <a href="#">Register</a>
+</footer>
+
+
+</body>
+</html>
